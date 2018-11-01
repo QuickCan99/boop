@@ -1,6 +1,4 @@
-lab3
+A4 Skeleton Code
 ====
 
-Lab 3 for Intro HCI: Interacting with webpage elements
-
-Originally created by Scott Klemmer, Michael Bernstein, and a coalition of TAs. This version forked from https://github.com/IntroHCI/lab3 and modified by Philip Guo.
+A4 Skeleton Code adapted from Philip Guo's Lab 3 for Intro HCI: Interacting with webpage elements https://github.com/intro-hci-ucsd/lab3
