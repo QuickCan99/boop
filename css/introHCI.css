@@ -47,9 +47,13 @@ body {
 	position: relative;
 }
 
+.square {
+height: 50px;
+width: 50px;
+background-color: #5;
+}
 
-
-
+ .big-checkbox {width: 30px; height: 30px;}
 
 .jumbotron {
 	position: relative;
