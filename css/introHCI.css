@@ -79,3 +79,20 @@ background-color: #5;
 .project a {
      text-align: center;
 }
+.login {
+	height: 20px;
+	width: 200px;
+}
+
+.usernameLabel {
+
+}
+
+.createAccount {
+	font-size: 10px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: relative;
+}
