@@ -84,20 +84,49 @@ background-color: #5;
 .project a {
      text-align: center;
 }
-.login {
-	height: 20px;
-	width: 200px;
+
+
+.logo {
+	padding-top:40px;
 }
 
-.usernameLabel {
-
+.search {
+	background-color:#78909C;
+	width: 100%;
+	height: 42px;
 }
 
-.createAccount {
-	font-size: 10px;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: relative;
+.searchtext{
+	color: white;
+}
+
+.game-container{
+	font-family: "Avenir" !important;
+	font-weight: 700;
+}
+
+.game-container a{
+	color: white;
+	line-height: normal;
+	font-size: 16px;
+}
+
+.whitetext{
+	color: #668695;
+	font-weight: 500;
+}
+
+.game{
+	padding-top:15px;
+	padding-bottom:20px;
+}
+
+.square {
+	display: inline-block;
+	/*position:absolute;*/
+
+  height: 30px;
+  width: 30px;
+  background-color: #CFD8DC;
+	border-radius: 7px;
 }
