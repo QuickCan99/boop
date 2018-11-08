@@ -2,7 +2,6 @@
 .example-class-selector {
 	margin-top: 2em;
 }
-
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
@@ -11,13 +10,19 @@
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
+	 @font-face {
+	   font-family: 'Avenir';
+	   src: url("http://www.yoursite.com/fonts/Avenir.otf"); /* File to be stored at your site */
+	   }
+
 body {
      border: 0px;
+		 font-family: "Avenir" !important;
 }
 
 .sidebar
 {
-	background-color: #D8D8D8;
+	background-color: #263238;
 	height:100vh;
 }
 
@@ -78,4 +83,45 @@ background-color: #5;
 
 .project a {
      text-align: center;
+}
+
+
+.logo {
+	padding-top:40px;
+}
+
+.search {
+	background-color:#78909C;
+	height: 45px;
+}
+
+.game-container{
+	font-family: "Avenir" !important;
+	font-weight: 700;
+}
+
+.game-container a{
+	color: white;
+	line-height: normal;
+	font-size: 16px;
+}
+
+.whitetext{
+	color: #668695;
+	font-weight: 500;
+}
+
+.game{
+	padding-top:15px;
+	padding-bottom:20px;
+}
+
+.square {
+	display: inline-block;
+	/*position:absolute;*/
+
+  height: 30px;
+  width: 30px;
+  background-color: #CFD8DC;
+	border-radius: 7px;
 }
