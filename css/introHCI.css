@@ -146,7 +146,17 @@ body {
 	margin-right:5px;
 }
 
-.test
+.results-container
 {
-	color: red;
+	overflow-y: scroll;
+}
+
+.circle {
+	display: inline-block;
+	/*position:absolute;*/
+
+  height: 30px;
+  width: 30px;
+  background-color: #CFD8DC;
+	border-radius: 7px;
 }
