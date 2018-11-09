@@ -52,11 +52,6 @@ body {
 	position: relative;
 }
 
-.square {
-height: 50px;
-width: 50px;
-background-color: #5;
-}
 
  .big-checkbox {width: 30px; height: 30px;}
 
@@ -130,4 +125,23 @@ background-color: #5;
   width: 30px;
   background-color: #CFD8DC;
 	border-radius: 7px;
+}
+
+.results
+{
+	color: #CFD8DC;
+}
+
+.resultsrow1
+{
+	background-color: #4b5960;
+	padding: 5px;
+	margin-right:5px;
+}
+
+.resultsrow2
+{
+	background-color: #5e6b72;
+	padding: 5px;
+	margin-right:5px;
 }
