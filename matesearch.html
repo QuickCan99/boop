@@ -11,24 +11,118 @@
 	<!-- this is a comment in HTML -->
 </head>
 
-<body>
-	<div class="jumbotron">
-		<a href="index.html"><h1>Boop</h1></a>
-		<h2>Teammate Search</h2>
+<body style="background:#37474F">
+	<div class="sidebar col-sm-2">
+
+		<div class="logo">
+			<img src="images/boop.png" alt="logo" style="width:98%">
+		</div>
+
+		<div class="search">
+			<a class="searchtext"href="index.html">Search</a>
+		</div>
+
+		<hr>
+		<div class="whitetext">
+			Frequently Played
+		</div>
+		<div class="game-container">
+
+			<div class="game">
+				<div class="square"></div>
+				<a href="league.html">League of Legends</a><br>
+			</div>
+
+			<!--<div class="game">
+				<div class="square"></div>
+				<a href="overwatch.html">Overwatch</a><br>
+			</div>
+		-->
+	</div>
 	</div>
 
-	<div class="jumbotron links">
-		<b>
-			<a href="groupsearch.html">Group Search</a> <br>
-			<a href="materesults.html">Teammmate Results</a> </br>
+	<div class="row col-sm-10">
 
-			<a href="sidebar.html">(Sidebar)</a> <br>
-			<a href="menu.html">(Menu)</a>
-	</b>
-	</div>
+		<div class="row" style="margin:10px">
+			<div class="col-sm-11"> </div>
+			<div class="col-sm-1">
+				<a href="profile.html">Profile</a>
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						▼
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="settings.html">Settings</a><br>
+						<a class="dropdown-item" href="index.html">Log Out</a><br>
+					</div>
+				</div>
 
-  <!-- include JavaScript near the end of the HTML file -->
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+			</div>
+		</div>
+
+		<div class="col-sm-3"></div>
+
+		<div class="col-sm-6" style="background: #D8D8D8">
+			<div class="row pull-right">
+				<h4><a href="index.html">x </a></h4>
+		</div>
+			<h1>Find <div class="dropdown">
+				<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Teammate ▼
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="groupsearch.html">Group</a>
+				</div>
+			</div> based on ... </h1></center>
+			<div>
+
+				<div class="form-check">
+					<input class="form-check-input  big-checkbox" type="checkbox" value="" id="defaultCheck1">
+					<label class="form-check-label" for="defaultCheck1">
+						<h3>Troll Level   <input type="range" min="1" max="100" value="50" class="slider" id="myRange"></h3>
+
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck1" >
+					<label class="form-check-label" for="defaultCheck2">
+						<h3>Rank</h3> <input placeholder="Lvl 27">
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input  big-checkbox" type="checkbox" value="" id="defaultCheck2" >
+					<label class="form-check-label" for="defaultCheck2">
+						<h3>Region</h3>
+						<select class="form-control form-control-sm">
+							<option>North</option>
+							<option>South</option>
+							<option>East</option>
+							<option>West</option>
+						</select>
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input  big-checkbox" type="checkbox" value="" id="defaultCheck2" >
+					<label class="form-check-label" for="defaultCheck2">
+						<h3>Schedule</h3>
+						<select class="form-control form-control-sm"></h3>
+							<option>Select a preset schedule</option>
+							<option>Work Sched</option>
+							<option>School Sched</option>
+						</select>
+					</label>
+				</div>
+
+				<center><a class="btn btn-primary" href="groupresults.html" role="button">Search</a> <br>
+					<div class="slidecontainer">
+
+					</div>
+				</div>
+
+			</div>
+
+			<!-- include JavaScript near the end of the HTML file -->
+			<script src="https://code.jquery.com/jquery.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+		</body>
+		</html>
