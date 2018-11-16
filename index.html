@@ -35,54 +35,140 @@
 			</div>
 
 			<!--<div class="game">
-				<div class="square"></div>
-				<a href="overwatch.html">Overwatch</a><br>
-			</div>
-		-->
-
+			<div class="square"></div>
+			<a href="overwatch.html">Overwatch</a><br>
 		</div>
+	-->
 
-	</div>
+</div>
 
-	<div class="col-sm-10" >
+</div>
 
+<div class="col-sm-10" style="background:#37474F">
 
-		<div class="row" style="margin:10px">
-			<div class="col-sm-11"> </div>
-			<div class="col-sm-1">
-			<a href="login2.html">Log In</a><br>
-			<a href="profile.html">Profile</a>
+	<div class="row pull-right" style="margin:10px">
+		<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#loginModal">
+			Log In
 			<div class="dropdown">
-			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			    ▼
-			  </button>
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			    <a class="dropdown-item" href="settings.html">Settings</a><br>
-			  </div>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					▼
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="settings.html">Settings</a><br>
+				</div>
 			</div>
-
-		</div>
+		</button>
 	</div>
 
-		<div class="main find col-sm-6"style="background:#37474F">
+		<div class="main find col-sm-5" style="background:#37474F">
 			<center>
-			<h3><a href="matesearch.html">
-				<img src="images/BoopFindTeammate.png"><br>
-				Find Teammate</a></h3>
+				<a href="matesearch.html"><img src="images/BoopFindTeammate.png"></a>
+				<br>
+				<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="matesearch.html">
+					Find Groupmate
+				</button>
+			</center>
 		</div>
 
-		<div class="main find col-sm-6"style="background:#37474F">
+		<div class="main find col-sm-5" style="background:#37474F">
 			<center>
+				<a href="groupsearch.html"><img src="images/BoopFindGroup.png"></a>
+				<br>
 
-			<h3><a href="groupsearch.html">
-					<img src="images/BoopFindGroup.png"><br>
-					Find Group</a></h3>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+					Find Group
+				</button>
+			</center>
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+
+						<div class="modal-body">
+
+
+							<div>
+
+								<div class="form-check">
+									<input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck1" >
+									<label class="form-check-label" for="defaultCheck2">
+										<h3>Group Size</h3> <input placeholder="5/8">
+									</label>
+								</div>
+
+								<div class="form-check">
+									<input class="form-check-input  big-checkbox" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										<h3>Troll Level   <input type="range" min="1" max="100" value="50" class="slider" id="myRange"></h3>
+
+									</label>
+								</div>
+
+								<div class="form-check">
+									<input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck1" >
+									<label class="form-check-label" for="defaultCheck2">
+										<h3>Rank</h3> <input placeholder="Lvl 27">
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input  big-checkbox" type="checkbox" value="" id="defaultCheck2" >
+									<label class="form-check-label" for="defaultCheck2">
+										<h3>Region</h3>
+										<select class="form-control form-control-sm">
+											<option>North</option>
+											<option>South</option>
+											<option>East</option>
+											<option>West</option>
+										</select>
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input  big-checkbox" type="checkbox" value="" id="defaultCheck2" >
+									<label class="form-check-label" for="defaultCheck2">
+										<h3>Schedule</h3>
+										<select class="form-control form-control-sm"></h3>
+											<option>Select a preset schedule</option>
+											<option>Work Sched</option>
+											<option>School Sched</option>
+										</select>
+									</label>
+								</div>
+
+								<a class="btn btn-primary" href="groupresults.html" role="button">Search</a> <br>
+								<div class="slidecontainer">
+
+								</div>
+							</div>
+
+
+
+
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
 		</div>
+</div>
 
-	</div>
+</div>
 
-  <!-- include JavaScript near the end of the HTML file -->
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+<!-- include JavaScript near the end of the HTML file -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
