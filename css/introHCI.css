@@ -168,13 +168,17 @@ body {
 
 }
 
-.dropdown{
+#menu{
 	position:absolute;
 	right:50px;
 }
 
-.dropdown-menu{
+#profmenu{
 	text-align:center;
 	padding:7px;
 	min-width:80px;
+}
+
+.ex{
+	padding:25px;
 }
