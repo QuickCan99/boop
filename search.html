@@ -13,19 +13,18 @@
 	<!-- this is a comment in HTML -->
 </head>
 
-<body>
+<body style="background:#37474F">
 	<div class="sidebar col-sm-2">
 
 		<div class="logo">
 			<a href="welcome.html">
-			<img src="images/boop.png" alt="logo" style="width:98%">
+				<img src="images/boop.png" alt="logo" style="width:98%">
+			</a>
 		</div>
 
-		<div class="search">
+		<div class="selection">
 			<a class="searchtext"href="search.html">Search</a>
 		</div>
-
-
 
 		<hr>
 		<div class="whitetext">
@@ -33,12 +32,10 @@
 		</div>
 		<div class="game-container">
 
-			<div class="selection">
 			<div class="game">
 				<div class="square"></div>
 				<a href="league.html">League of Legends</a><br>
-
-			</div></div>
+			</div>
 
 			<!--<div class="game">
 				<div class="square"></div>
@@ -50,7 +47,7 @@
 
 	</div>
 
-	<div class="col-sm-10" style="background:#37474F">
+	<div class="col-sm-10">
 
 
 		<div class="row" style="margin:10px">
@@ -58,25 +55,30 @@
 			<div class="col-sm-1" style="margin-top:20px">
 				<a class="profile"href="profile.html">Profile</a>
 
-			<div class="dropdown" id="menu">
-				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Menu ▼
-				</button>
-				<div class="dropdown-menu" id="profmenu" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item" href="settings.html" >Settings</a><br>
-					<a class="dropdown-item" href="login2.html">Log In</a><br>
+				<div class="dropdown" id="menu">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Menu ▼
+					</button>
+					<div class="dropdown-menu" id="profmenu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="settings.html" >Settings</a><br>
+						<a class="dropdown-item" href="login2.html">Log In</a><br>
+					</div>
 				</div>
+
 			</div>
-
 		</div>
-	</div>
 
-		<div class="main find col-sm-5" style="background:#37474F;height:92.6vh">
+		<div class="main find col-sm-6"style="background:#37474F; margin-top:90px;max-height:80vh">
 			<center>
-
+				<img src="images/BoopFindTeammate.png">
+			<h3><a href="matesearch.html">Find Teammate</a></h3>
 		</div>
-		<h3 style="color:#fff">League of Legends</h3><br>
-		<h3 style="color:#fff"> *some teammates* </h3>
+
+		<div class="main find col-sm-6"style="background:#37474F; margin-top:90px;max-height:80vh">
+			<center>
+				<img src="images/BoopFindGroup.png">
+			<h3><a href="groupsearch.html">Find Group</a></h3>
+		</div>
 
 	</div>
 

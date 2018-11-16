@@ -15,13 +15,12 @@
 	<div class="sidebar col-sm-2" >
 
 		<div class="logo">
-			<a href="index.html">
+			<a href="welcome.html">
 				<img src="images/boop.png" alt="logo" style="width:98%">
 			</a>
 		</div>
-
 		<div class="search">
-			<a class="searchtext"href="index.html">Search</a>
+			<a class="searchtext"href="search.html">Search</a>
 		</div>
 
 		<hr>
@@ -48,15 +47,16 @@
 
 	<div class="row" style="margin:10px">
 		<div class="col-sm-11"> </div>
-		<div class="col-sm-1">
-			<a href="profile.html">Profile</a>
-			<div class="dropdown">
+		<div class="col-sm-1" style="margin-top:20px">
+			<a class="profile"href="profile.html">Profile</a>
+
+			<div class="dropdown" id="menu">
 				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					▼
+					Menu ▼
 				</button>
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item" href="settings.html">Settings</a><br>
-					<a class="dropdown-item" href="index.html">Log Out</a><br>
+				<div class="dropdown-menu" id="profmenu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item" href="settings.html" >Settings</a><br>
+					<a class="dropdown-item" href="login2.html">Log In</a><br>
 				</div>
 			</div>
 
@@ -67,8 +67,8 @@
 
 	<div class="col-sm-6" style="background: #485c66">
 
-		<div class="row pull-right">
-			<h4><a href="index.html"> x </a></h4>
+		<div class="row pull-right"style="margin-top:5px">
+			<h3><a class="ex" href="welcome.html"> X </a></h3>
 		</div>
 
 		<div>
@@ -81,7 +81,7 @@
 					</label>
 				</div>
 
-				<center><a class="btn btn-primary" href="settings.html" role="button" >Save</a><br>
+				<center><a class="btn btn-primary" href="settings.html" role="button" style="margin-bottom:15px">Save</a><br>
 
 			</div>
 		</div>

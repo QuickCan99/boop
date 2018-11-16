@@ -160,3 +160,25 @@ body {
   background-color: #CFD8DC;
 	border-radius: 7px;
 }
+
+.profile{
+	color:#fff;
+	position:inherit;
+	right:50px;
+
+}
+
+#menu{
+	position:absolute;
+	right:50px;
+}
+
+#profmenu{
+	text-align:center;
+	padding:7px;
+	min-width:80px;
+}
+
+.ex{
+	padding:25px;
+}
