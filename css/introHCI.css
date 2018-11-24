@@ -115,16 +115,18 @@ body {
 .game{
 	padding-top:15px;
 	padding-bottom:20px;
+
 }
 
 .square {
 	display: inline-block;
-	/*position:absolute;*/
+	position:absolute;
 
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   background-color: #CFD8DC;
 	border-radius: 7px;
+
 }
 
 .results
