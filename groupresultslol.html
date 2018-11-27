@@ -18,7 +18,7 @@
 
 </head>
 
-<body style="background:#37474F">
+<body style="background:#37474F" onload="filterSelection('LoL')">
 
 	<div class="sidebar col-xs-2">
 
@@ -70,7 +70,7 @@
 	</div>
 
 <div class="row col-sm-12" id="myBtnContainer">
-  <button class="btn" onclick="filterSelection('LoL')"><b>League of Legends</b></button>
+  <button class="btn active" onclick="filterSelection('LoL')"><b>League of Legends</b></button>
 	<button class="btn" onclick="filterSelection('Fortnite')"><b>Fortnite</b></button>
 	<button class="btn" onclick="filterSelection('Balanced')">Balanced</button>
 	<button class="btn" onclick="filterSelection('Ranked')">Ranked</button>
@@ -78,7 +78,7 @@
 	<button class="btn" onclick="filterSelection('Serious')">Serious</button>
 	<button class="btn" onclick="filterSelection('Super-Troll')">Super-Troll</button>
 	<button class="btn" onclick="filterSelection('Inhouse')">Inhouse</button>
-	<button class="btn active" onclick="filterSelection('all')">Show all</button>
+	<button class="btn" onclick="filterSelection('all')">Show all</button>
 </div>
 
 	<div class="row">
