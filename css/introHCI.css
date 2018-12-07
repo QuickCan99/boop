@@ -83,7 +83,6 @@ body {
 
 .logo {
 	padding-top:40px;
-	width:100%;
 }
 
 .selection {
@@ -132,8 +131,8 @@ body {
 .game{
 	padding-top:15px;
 	padding-bottom:20px;
-}
 
+}
 
 .square {
 	display: inline-block;
@@ -195,8 +194,7 @@ body {
 #profmenu{
 	text-align:center;
 	padding:7px;
-	min-width:100px;
-	margin-left:15px;
+	min-width:80px;
 }
 
 .ex{
@@ -278,8 +276,4 @@ body {
   top: 0;
   left: 0;
   pointer-events: none;
-}
-
-#examplePassword{
-  -webkit-text-security: disc;
 }
